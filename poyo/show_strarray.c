@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-void show_str_array(char* strs[5]) { // (char** strs) also worls.
-  for (int i = 0; i < 5; ++i) {
+void show_str_array(char* strs[], int sz) { // (char** strs) also worls.
+  for (int i = 0; i < sz; ++i) {
     printf("%s\n", strs[i]);
   }
 
@@ -17,7 +17,7 @@ int main() {
     "genius"
   };
 
-  show_str_array(strs);
+  show_str_array(strs, 5);
 
   return 0;
 }
