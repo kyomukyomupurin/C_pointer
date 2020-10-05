@@ -90,8 +90,8 @@ int main() {
 
   my_array_swap(&ptr1, &ptr2);
 
-  show_array(arr1, 5);
-  show_array(arr2, 5);
+  show_array(ptr1, 5);
+  show_array(ptr2, 5);
 
   // char* str1 = "Hello, World!";
   // char* str2 = "kyomukyomupurin";
